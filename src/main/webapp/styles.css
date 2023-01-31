@@ -1,0 +1,342 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	background-image:url(https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410_960_720.jpg);
+	background-size: cover;
+}
+
+
+nav{
+	background-color: #EF9A53;
+	font-size: 30px;
+	color: white;
+	display:flex;
+	justify-content:right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	
+}
+
+nav a{
+	color: white;
+	padding-left:20px;
+	padding-right:20px;
+		
+}
+
+nav a:hover
+{
+	color: blue;
+} 
+
+.form-container{
+	background-color: white;
+	font-size: 35px;
+	display:flex;
+	justify-content: center;
+	margin-left: 60%;
+	margin-top: 7%;
+	margin-right: 4%;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	width:500px;
+	height: 350px;
+	opacity: 1;
+	
+}
+.form-container label{
+	display:flex;
+	justify-content: center;
+
+}
+.form-container input,button{
+	width: 220px;
+	height: 40px;
+	margin-top:20px;
+	margin-left: 100px;
+	font-size: 23px;
+	border-radius:20px;
+	text-align: center;
+}
+
+.form-container button{
+	background-color:blue;
+	color:white;
+	cursor:pointer;
+	width:220px;
+	margin-left:100px;
+}
+.form-container a{
+	font-size: 25px;
+	margin-left: 180px;
+	
+}
+.form-container a:hover
+{
+	color:black;
+}
+
+.about{
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right:20px;
+	width:100vx;
+	height: 90vh;
+	padding:20px;
+	background-color:white;
+	font-size: 30px;
+	opacity: 0.7;
+	
+}
+
+
+.form-contact{
+	background-color: white;
+	font-size: 35px;
+	display:flex;
+	justify-content: center;
+	margin-left: 60%;
+	margin-top: 4%;
+	margin-right: 4%;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	width:500px;
+	height: 720px;
+	opacity: 1;
+}
+
+.form-contact label{
+	display:flex;
+	margin-left:50px;
+	
+	
+
+}
+
+.form-contact input,button{
+	width: 280px;
+	height: 40px;
+	margin-left:50px;
+	font-size: 23px;
+	border-radius:20px;
+	color:black;
+	text-align:center;
+	padding:0;
+}
+
+
+.form-contact button{
+	background-color:blue;
+	color:white;
+	cursor:pointer;
+	margin-right:70px;
+}
+.form-contact textarea{
+	width: 280px;
+	height: 40px;
+	margin-left:50px;
+	font-size: 23px;
+	border-radius:20px;
+	color:black;
+}
+
+.form-admin{
+	background-color: white;
+	font-size: 35px;
+	display:flex;
+	justify-content: center;
+	margin-left: 60%;
+	margin-top: 7%;
+	margin-right: 4%;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	width:500px;
+	height: 450px;
+	opacity: 1;
+}
+.form-admin h4{
+	margin-left:48px;
+}
+.form-admin label{
+	display:flex;
+	margin-left:40px;
+
+}
+.form-admin input{
+	width: 220px;
+	height: 40px;
+	margin-top:08px;
+	margin-left: 40px;
+	font-size: 23px;
+	border-radius:20px;
+	text-align: center;
+}
+
+.form-admin button{
+	background-color:blue;
+	color:white;
+	cursor:pointer;
+	width:220px;
+	margin-left:45px;
+}
+
+.welcome{
+	background-color: white;
+	font-size: 35px;
+	display:flex;
+	justify-content: center;
+	margin-left: 60%;
+	margin-top: 13%;
+	margin-right: 4%;
+	border-radius: 20px;
+	padding: 20px;
+	width:400px;
+	height: 150px;
+	opacity: 1;
+	
+}
+.welcome a:hover{
+	color:black;
+}
+
+.checktable{
+	background-color:white;
+	height: 160vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	opacity: 0.8;
+}
+
+.checktable img{
+	width: 100px;
+	height: 100px;
+	margin:10px;
+}
+
+.checktable td{
+	
+	padding:13px;
+	margin: 20px;
+}
+
+.checktable th{
+	font-size:30px;
+}
+
+.register{
+	background-color: white;
+	font-size: 35px;
+	display:flex;
+	justify-content: center;
+	margin-left: 60%;
+	margin-top: 6%;
+	margin-right: 4%;
+	border-radius: 20px;
+	padding: 20px;
+	width:500px;
+	height:830px;
+	opacity: 1;
+}
+.register label{
+	display:flex;
+	margin-left:50px;
+	
+	
+
+}
+
+.register input,button{
+	width: 280px;
+	height: 40px;
+	margin-left:50px;
+	font-size: 23px;
+	border-radius:20px;
+	color:black;
+	text-align:center;
+	padding:0;
+}
+
+
+.register button{
+	background-color:blue;
+	color:white;
+	cursor:pointer;
+}
+.register textarea{
+	width: 280px;
+	height: 40px;
+	margin-left:50px;
+	font-size: 23px;
+	border-radius:20px;
+	color:black;
+}
+
+.form-invalid{
+	background-color: white;
+	font-size: 35px;
+	display:flex;
+	justify-content: center;
+	margin-left: 60%;
+	margin-top: 13%;
+	margin-right: 4%;
+	border-radius: 20px;
+	
+	width:500px;
+	height: 180px;
+	opacity: 1;
+	
+}
+
+.form-invalid a{
+	font-size: 25px;
+	margin-left: 190px;
+	padding-bottom: 50px;
+	
+}
+.form-invalid a:hover
+{
+	color:black;
+}
+
+.form-welcomeVoter{
+	background-color: white;
+	font-size: 35px;
+	display:flex;
+	justify-content: center;
+	margin-left: 60%;
+	margin-top: 7%;
+	margin-right: 4%;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	width:500px;
+	height: 400px;
+	opacity: 1;
+	
+}
+
+.form-welcomeVoter label{
+	display:flex;
+	justify-content: center;
+
+}
+.form-welcomeVoter input,button,select{
+	width: 220px;
+	height: 40px;
+	margin-left: 120px;
+	font-size: 23px;
+	border-radius:20px;
+	text-align: center;
+}
+
+.form-welcomeVoter button{
+	background-color:blue;
+	color:white;
+	cursor:pointer;
+	width:220px;
+	margin-left:120px;
+}
